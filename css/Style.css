@@ -1,0 +1,80 @@
+/* Start body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+/* End body styling */
+
+/* Start container styling */
+.container {
+    width: 980px;
+    margin: 100px auto 0;
+}
+/* End container styling */
+
+/* Start left section styling */
+.left {
+    float: left;
+    width: 50%;
+}
+
+.left h1 {
+    color: #1877f2;
+    font-size: 50px;
+    margin: 0;
+}
+
+.left p {
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+}
+/* End left section styling */
+
+/* Start right section styling */
+.right {
+    float: right;
+    width: 320px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.right input {
+    width: 300px;
+    margin-bottom: 10px;
+    padding: 14px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #f0f2f5;
+}
+
+.right button {
+    display: block;
+    width: 329px;
+    padding: 14px;
+    background-color: #1877f2;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.right .new-account {
+    background-color: #42b72a;
+}
+
+.right a {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 14px;
+}
+/* End right section styling */
